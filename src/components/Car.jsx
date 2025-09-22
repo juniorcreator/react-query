@@ -39,13 +39,13 @@ export default function Car({ id }) {
 
       <div className="autoCardDealer">
         <div>
-          <strong>Дилер</strong>: {dealerQuery.data?.name}
+          <strong>Dealer</strong>: {dealerQuery.data?.name}
         </div>
         <div>
-          <strong>Город</strong>: {dealerQuery.data?.city}
+          <strong>City</strong>: {dealerQuery.data?.city}
         </div>
         <div>
-          <strong>Телефон</strong>: {dealerQuery.data?.phone}
+          <strong>Phone</strong>: {dealerQuery.data?.phone}
         </div>
       </div>
     </div>
